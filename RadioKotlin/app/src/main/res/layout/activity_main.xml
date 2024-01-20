@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:weightSum="3">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Ho ten"
+           android:textSize="20sp"
+           android:layout_weight="1"/>
+        <EditText
+            android:id="@+id/ethoten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Nhap ho va ten"
+            android:layout_weight="2" />
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CAU HINH MAY"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_weight="1"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <RadioButton
+                android:id="@+id/rbthap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:text="Thấp" />
+            <RadioButton
+                android:id="@+id/rbtbinh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Trung bình" />
+            <RadioButton
+                android:id="@+id/rbcao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Cao" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RAM"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_weight="1"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <RadioButton
+                android:id="@+id/rb4g"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:text="4" />
+            <RadioButton
+                android:id="@+id/rb8g"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="8" />
+            <RadioButton
+                android:id="@+id/rb16g"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="16" />
+            <RadioButton
+                android:id="@+id/rb32g"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="32" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SSD"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_weight="1"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <RadioButton
+                android:id="@+id/rb128"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:text="128" />
+            <RadioButton
+                android:id="@+id/rb256"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="256" />
+            <RadioButton
+                android:id="@+id/rb512"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="512" />
+            <RadioButton
+                android:id="@+id/rb1024"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="1024" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnRes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RESULT"/>
+        <TextView
+            android:id="@+id/txtKq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="KET QUA"/>
+        <TextView
+            android:id="@+id/txtKq2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="KET QUA"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DFEECE">
+
+    <TextView
+        android:id="@+id/txtAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THÊM MÓN MỚI"
+        android:textSize="30sp"
+        android:textColor="#D75B34"
+        android:gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/edtTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAdd"
+        android:hint="Tên món"
+        android:textSize="22sp"
+        android:padding="15dp"/>
+    <EditText
+        android:id="@+id/edtGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtTen"
+        android:hint="Đơn giá"
+        android:textSize="22sp"
+        android:padding="15dp"/>
+    <EditText
+        android:id="@+id/edtSLdaban"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtGia"
+        android:hint="Số lượng đã bán (trong tháng)"
+        android:textSize="22sp"
+        android:padding="15dp"/>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_below="@+id/edtSLdaban"
+        android:textSize="16sp"
+        android:text="Add"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="#91DA64"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_below="@+id/edtSLdaban"
+        android:layout_toRightOf="@+id/btnAdd"
+        android:textSize="16sp"
+        android:text="Cancel"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="20dp"
+        android:background="#91DA64"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

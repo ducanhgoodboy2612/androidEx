@@ -1,0 +1,90 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/book_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/nhatky_chubenhutnhat1" />
+
+    <TextView
+        android:id="@+id/book_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhật Ký Chú Bé Nhút Nhát - Tập 1"
+        android:textSize="20sp"
+        android:layout_toEndOf="@id/book_image"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/book_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="44.000đ"
+        android:textColor="#FF0000"
+        android:textSize="18sp"
+        android:layout_below="@id/book_title"
+        android:layout_toEndOf="@id/book_image"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/decrease_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="-"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/book_price"
+        android:layout_toEndOf="@id/book_image"/>
+
+    <TextView
+        android:id="@+id/quantity_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textSize="18sp"
+        android:layout_below="@id/book_price"
+        android:layout_toEndOf="@id/decrease_button"
+        android:layout_alignBaseline="@id/decrease_button"
+        android:layout_marginStart="8dp"/>
+
+    <Button
+        android:id="@+id/increase_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="+"
+        android:layout_toEndOf="@id/quantity_text_view"
+        android:layout_below="@id/book_price"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/add_to_cart_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/increase_button"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@id/book_image"
+        android:onClick="onclickMuaSach"
+        android:text="Thêm vào giỏ hàng" />
+    <TextView
+        android:id="@+id/book_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mã hàng: 8934986006546\nNhà Cung Cấp: Công ty TNHH Sách Hà Giang\nTác giả: Jeff Kinney\nNgười Dịch: Văn Khánh\nNXB: NXB Văn Học\nNăm XB: 2020\nTrọng lượng (gr): 400\nKích Thước Bao Bì: 15.5 x 22 cm\nSố trang: 360\nHình thức: Bìa Mềm"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_below="@id/add_to_cart_button" />
+
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A3E0E8">
+
+    <TextView
+        android:id="@+id/txtAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CẬP NHẬT CÔNG VIỆC"
+        android:textSize="30sp"
+        android:textColor="#39AC3E"
+        android:gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/edtEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAdd"
+        android:hint="Cap nhat cong viec"
+        android:textSize="22sp"
+        android:padding="15dp"/>
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_below="@+id/edtEdit"
+        android:textSize="16sp"
+        android:text="Edit"
+        android:layout_marginLeft="30dp"
+        android:background="#91DA64"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnCancelEdit"
+        android:layout_below="@+id/edtEdit"
+        android:layout_toRightOf="@+id/btnEdit"
+        android:textSize="16sp"
+        android:text="Cancel"
+        android:layout_marginLeft="60dp"
+        android:background="#91DA64"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

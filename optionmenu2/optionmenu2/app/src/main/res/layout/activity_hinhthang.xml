@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diện tích hình thang"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#F90F0F"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập đáy nhỏ "
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#0F4AF9"
+        android:paddingLeft="10dp"/>
+    <EditText
+        android:id="@+id/hsa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập đáy nhỏ"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập đáy nhớn "
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#0F4AF9"
+        android:paddingLeft="10dp"/>
+    <EditText
+        android:id="@+id/hsb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập đáy nhớn"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập chiều cao "
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#0F4AF9"
+        android:paddingLeft="10dp"/>
+    <EditText
+        android:id="@+id/hsc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập chiều cao"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"/>
+    <Button
+        android:id="@+id/btnAnswerHT"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Answer "
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FDFDFE"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press Answer Button "
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#0F4AF9"/>
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Back "
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#F7F7F8"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+</LinearLayout>

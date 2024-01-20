@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DFEECE">
+
+    <TextView
+        android:id="@+id/txtAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THÊM HÓA ĐƠN"
+        android:textSize="30sp"
+        android:textColor="#D75B34"
+        android:gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/edtTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Tên nhân viên lập"
+        android:textSize="22sp"
+        android:padding="15dp"/>
+    <EditText
+        android:id="@+id/edtNgay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Ngày lập"
+        android:textSize="22sp"
+        android:padding="15dp"/>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      >
+      <Button
+          android:id="@+id/btnAdd"
+
+          android:textSize="16sp"
+          android:text="Add"
+          android:layout_marginLeft="50dp"
+          android:layout_marginTop="10dp"
+          android:background="#91DA64"
+          android:layout_width="80dp"
+          android:layout_height="wrap_content"/>
+      <Button
+          android:id="@+id/btnCancel"
+          android:layout_below="@+id/edtSLdaban"
+          android:layout_toRightOf="@+id/btnAdd"
+          android:textSize="16sp"
+          android:text="Cancel"
+          android:layout_marginTop="10dp"
+          android:layout_marginLeft="60dp"
+          android:background="#91DA64"
+          android:layout_width="80dp"
+          android:layout_height="wrap_content"/>
+  </LinearLayout>
+
+
+
+</LinearLayout>

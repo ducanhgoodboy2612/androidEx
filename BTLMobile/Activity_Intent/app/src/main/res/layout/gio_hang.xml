@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/TieuDe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giỏ hàng"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:background="#008EFF"
+        android:textColor="@color/white"/>
+    <ImageView
+        android:id="@+id/book_image1"
+        android:layout_width="150dp"
+        android:layout_below="@+id/TieuDe"
+        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/nhatky_chubenhutnhat1" />
+
+    <TextView
+        android:id="@+id/book_title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TieuDe"
+        android:text="Nhật Ký Chú Bé Nhút Nhát - Tập 2"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@id/book_image1"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/book_price1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="44.000đ"
+        android:textColor="#FF0000"
+        android:textSize="18sp"
+        android:layout_below="@id/book_title1"
+        android:layout_toEndOf="@id/book_image1"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/checkout_button1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#FF0000"
+        android:text="Thanh toán"
+        android:textColor="@color/white"
+        android:onClick="onclickThanhToan"/>
+    <TextView
+        android:id="@+id/SoLuong1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textColor="#FF0000"
+        android:textSize="18sp"
+        android:layout_below="@id/book_price1"
+        android:layout_toEndOf="@id/book_image1"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"/>
+</RelativeLayout>

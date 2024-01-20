@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:gravity="center"
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MENU"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:paddingTop="40px"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <CheckBox
+            android:id="@+id/cbCo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coffee - 20.000 (VNĐ)" />
+        <EditText
+            android:id="@+id/txtCo"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="Số lượng: " />
+    </TableRow>
+    <TableRow
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <CheckBox
+            android:id="@+id/cbKem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kem tươi - 10.000 (VNĐ)" />
+        <EditText
+            android:id="@+id/txtKem"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="Số lượng: " />
+    </TableRow>
+    <TableRow
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <CheckBox
+            android:id="@+id/cbBim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bim bim -5.000 (VNĐ)" />
+        <EditText
+            android:id="@+id/txtBim"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="Số lượng: " />
+    </TableRow>
+    <TableRow
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <CheckBox
+            android:id="@+id/cbSuac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sữa chua - 6.000 (VNĐ)" />
+        <EditText
+            android:id="@+id/txtSuac"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="Số lượng: " />
+    </TableRow>
+    <TableRow
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <CheckBox
+            android:id="@+id/cbSuacNC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sữa chua nếp cẩm - 12.000 (VNĐ)" />
+        <EditText
+            android:id="@+id/txtSuacNC"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="Số lượng: " />
+    </TableRow>
+    <TableRow
+        android:gravity="center"
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/btOK"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đặt hàng"
+            android:onClick="TongTien" />
+    </TableRow>
+    <TableRow
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/tvTong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tổng tiền: "
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DangKy">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số điện thoại"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:paddingLeft="10dp"
+        />
+    <EditText
+        android:id="@+id/idSDTDangKy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập số điện thoại"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#0B0B0B"
+        android:paddingLeft="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mã xác nhận OTP"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:paddingLeft="10dp"
+        />
+    <EditText
+        android:id="@+id/id6KyTuDangKy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="6 ký tự"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#0B0B0B"
+        android:paddingLeft="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mật khẩu"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:paddingLeft="10dp"
+        />
+    <EditText
+        android:id="@+id/idMKDangKy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập mật khẩu"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#0B0B0B"
+        android:paddingLeft="10dp"/>
+    <Button
+        android:id="@+id/idDangKyDangKy"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:backgroundTint="#C92127"
+        android:layout_gravity="center"
+        android:onClick="onclickdangky"
+        />
+
+    <Button
+        android:id="@+id/btnBackDangKy"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Trở về"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#C92127"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#fff"/>
+</LinearLayout>

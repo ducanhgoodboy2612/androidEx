@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="188dp"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/id_Image_L"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <fontsmaterialuiux.Raleway_BoldItalic_TextView
+                android:id="@+id/id_shop_women"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Shop"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="16sp" />
+
+            <fontsmaterialuiux.Raleway_Italic_TextView
+                android:id="@+id/id_body_tx1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/id_shop_women"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="8dp"
+                android:text="Women"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/id_Image_R"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <fontsmaterialuiux.Raleway_BoldItalic_TextView
+                android:id="@+id/id_shop_men"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Shop"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="16sp" />
+
+            <fontsmaterialuiux.Raleway_Italic_TextView
+                android:id="@+id/id_body_tx2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/id_shop_men"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="8dp"
+                android:text="Men"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:gravity="center"
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MENU KFC"
+            android:textAlignment="center"
+
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <CheckBox
+            android:id="@+id/cbCanhGaRan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cánh gà rán - 89.000 (VNĐ)" />
+    </TableRow>
+    <TableRow
+        android:id="@+id/a1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <CheckBox
+            android:id="@+id/cbDuiGaRan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đùi gà rán - 92.000 (VNĐ)" />
+    </TableRow>
+    <TableRow
+        android:id="@+id/cbCo1mbo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <CheckBox
+            android:id="@+id/cbCombo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Combo -156.000 (VNĐ)" />
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <CheckBox
+            android:id="@+id/cbThucAnPhu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thức ăn phụ - 34.000 (VNĐ)" />
+    </TableRow>
+    <TableRow
+        android:gravity="center"
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/btOK"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đặt hàng"
+            android:onClick="tongTienKFC" />
+    </TableRow>
+    <TableRow
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/tvTong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tổng tiền: "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    </TableRow>
+
+</TableLayout>

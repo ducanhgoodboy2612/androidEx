@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/def"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="?attr/actionBarTheme"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giải PT bậc 2"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#F90F0F"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hệ số a "
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#0F4AF9"
+        android:paddingLeft="10dp"/>
+    <EditText
+        android:id="@+id/hsa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập hệ số a"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hệ số b "
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#0F4AF9"
+        android:paddingLeft="10dp"/>
+    <EditText
+        android:id="@+id/hsb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập hệ số b"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hệ số c "
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#0F4AF9"
+        android:paddingLeft="10dp"/>
+    <EditText
+        android:id="@+id/hsc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập hệ số c"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"/>
+    <Button
+        android:id="@+id/btnAnswerPTB2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Answer "
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FDFDFE"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:id="@+id/idkq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press Answer Button "
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#0F4AF9"/>
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Back "
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#F7F7F8"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+
+</LinearLayout>

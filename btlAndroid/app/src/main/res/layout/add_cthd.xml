@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+   >
+    <ImageView
+        android:id="@+id/topbanner"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/brandpic"/>
+    <TextView
+        android:id="@+id/txtAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THÊM MÓN VÀO HÓA ĐƠN"
+        android:textSize="30sp"
+        android:textColor="#D75B34"
+        android:gravity="center"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chọn món"
+        android:layout_marginTop="18dp"
+        android:textSize="20sp"/>
+    <Spinner
+        android:id="@+id/spinnerThucDon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đơn Giá"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/txtGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="gia"
+        android:textSize="22sp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số lượng"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/slThem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Số lượng"
+        android:textSize="20sp"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:weightSum="2">
+        <Button
+            android:id="@+id/btnAddtoBill"
+            android:textSize="16sp"
+            android:text="Add"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:background="#91DA64"
+            android:layout_width="80dp"
+            android:layout_marginLeft="90dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btnCancel"
+
+            android:textSize="16sp"
+            android:text="Cancel"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_weight="1"
+            android:background="#91DA64"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</LinearLayout>

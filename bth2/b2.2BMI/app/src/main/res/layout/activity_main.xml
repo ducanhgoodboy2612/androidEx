@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHƯƠNG TRÌNH TÍNH CHỈ SỐ BMI"
+        android:background="#CDDC39"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="50px"
+        />
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Chiều cao(m) "
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_x="50px"
+            android:layout_y="50px"/>
+        <EditText
+            android:id="@+id/height"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_x="470px"
+            android:layout_y="80px"
+            android:hint=""
+            android:textSize="20sp"
+
+            android:background="#86CB35"
+            />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Cân nặng(kg) "
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_x="50px"
+            android:layout_y="200px"/>
+
+        <EditText
+            android:id="@+id/weigh"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_x="470px"
+            android:layout_y="250px"
+            android:hint=""
+            android:textSize="20sp"
+
+            android:background="#86CB35"
+            />
+    </AbsoluteLayout>
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tính chỉ số BMI"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" />
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Chỉ số BMI "
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_x="50px"
+            android:layout_y="50px"/>
+        <TextView
+            android:id="@+id/kqbmi"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_x="470px"
+            android:layout_y="80px"
+            android:hint=""
+            android:textSize="20sp"
+
+            android:background="#86CB35"
+            />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Đánh giá "
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_x="50px"
+            android:layout_y="200px"/>
+
+        <TextView
+            android:id="@+id/danhgia"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_x="470px"
+            android:layout_y="250px"
+            android:hint=""
+            android:textSize="20sp"
+
+            android:background="#86CB35"
+            />
+    </AbsoluteLayout>
+
+</LinearLayout>

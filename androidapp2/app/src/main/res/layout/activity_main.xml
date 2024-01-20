@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhap ho va ten"
+        android:textSize="20sp"
+         />
+    <EditText
+        android:id="@+id/hovaten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap ho ten"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gioi tinh"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        />
+    <RadioGroup
+        android:id="@+id/gioitinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <RadioButton
+            android:id="@+id/nam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nam"
+            android:onClick="onRadioButtonClicked1">
+
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/nu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nu"
+            android:onClick="onRadioButtonClicked1">
+
+        </RadioButton>
+    </RadioGroup>
+    <RadioGroup
+        android:id="@+id/luatuoi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <RadioButton
+            android:id="@+id/thieunien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thieu nien"
+            android:onClick="onRadioButtonClicked1">
+
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/thanhnien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thanh nien"
+            android:onClick="onRadioButtonClicked1">
+
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/trungnien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trung nien">
+
+        </RadioButton>
+    </RadioGroup>
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ket Qua"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:id="@+id/kq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        android:textColor="#A42F2F" />
+
+</LinearLayout>

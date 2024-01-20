@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:context=".WalletActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@android:color/white"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+            <fontsmaterialuiux.Raleway_Regular_TextView
+                android:id="@+id/id_Product_Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/Wallet"
+                android:textColor="@color/secondaryTextColor"
+                android:textSize="14sp" />
+
+            <RelativeLayout
+                android:id="@+id/id_checkout"
+                android:layout_width="80dp"
+                android:layout_height="59dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/id_cart_order"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_shopping_bag"
+                    tools:ignore="ContentDescription" />
+
+                <fontsmaterialuiux.Raleway_Regular_TextView
+                    android:id="@+id/id_order_count"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/ic_background_cart"
+                    android:gravity="center"
+                    android:text="5"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="11sp" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/Credit_Card"
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/appbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_wallet">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginStart="39dp"
+            android:layout_marginLeft="39dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginEnd="58dp"
+            android:layout_marginRight="58dp">
+
+            <fontsmaterialuiux.Raleway_Regular_EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@android:color/transparent"
+                android:gravity="left|center"
+                android:hint="Enter credit card number"
+                android:textColor="@color/thirdTextColor"
+                android:textColorHint="@color/thirdTextColor" />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="96dp"
+            android:layout_marginEnd="55dp"
+            android:layout_marginRight="55dp">
+
+            <fontsmaterialuiux.Raleway_Regular_EditText
+                android:id="@+id/id_months_card"
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:backgroundTint="@android:color/transparent"
+                android:gravity="left|center"
+                android:hint="MM"
+                android:textColor="@color/thirdTextColor"
+                android:textColorHint="@color/thirdTextColor" />
+
+            <fontsmaterialuiux.Raleway_Regular_EditText
+                android:layout_width="76dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@id/id_months_card"
+                android:layout_toRightOf="@id/id_months_card"
+                android:backgroundTint="@android:color/transparent"
+                android:gravity="left|center"
+                android:hint="YYYY"
+                android:textColor="@color/thirdTextColor"
+                android:textColorHint="@color/thirdTextColor" />
+
+            <fontsmaterialuiux.Raleway_Regular_EditText
+                android:layout_width="93dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="@android:color/transparent"
+                android:gravity="left|center"
+                android:hint="CVV"
+                android:textColor="@color/thirdTextColor"
+                android:textColorHint="@color/thirdTextColor" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginStart="39dp"
+            android:layout_marginLeft="39dp"
+            android:layout_marginTop="164dp"
+            android:layout_marginEnd="58dp"
+            android:layout_marginRight="58dp">
+
+            <fontsmaterialuiux.Raleway_Regular_EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@android:color/transparent"
+                android:gravity="left|center"
+                android:hint="Name on card "
+                android:textColor="@color/thirdTextColor"
+                android:textColorHint="@color/thirdTextColor" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/add_cad"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/Credit_Card"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/add_card_bg"
+        android:drawableRight="@drawable/ic_add_blue"
+        android:padding="10dp"
+        android:text="ADD CARD"
+        android:textColor="@color/fourdTextColor"
+        android:textSize="14sp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/splah_bg">
+
+        <devs.mulham.horizontalcalendar.HorizontalCalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@android:color/transparent"
+            app:selectorColor="@android:color/transparent"
+            app:sizeBottomText="14sp"
+            app:sizeMiddleText="16sp"
+            app:sizeTopText="14sp"
+            app:textColorNormal="#5E5B5B"
+            app:textColorSelected="#000" />
+
+
+        <com.materialuiux.store.utility.linechart.LineChartView
+            android:id="@+id/chart"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_below="@+id/calendarView"
+            android:layout_marginBottom="-20dp"
+            app:horizontal_values_size="0dp"
+            app:vertical_values_size="0dp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

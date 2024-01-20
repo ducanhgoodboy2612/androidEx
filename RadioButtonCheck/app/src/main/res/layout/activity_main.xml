@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Present simple"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I lives in Hung Yen"
+            android:onClick="ClickEvent"
+            android:id="@+id/rbAnswerA" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I living in Hung Yen"
+            android:onClick="ClickEvent"
+            android:id="@+id/rbAnswerB" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I lived in Hung Yen"
+            android:id="@+id/rbAnswerC"
+            android:onClick="ClickEvent"
+            android:checked="false" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I live in Hung Yen"
+            android:onClick="ClickEvent"
+            android:id="@+id/rbAnswerD" />
+    </RadioGroup>
+</LinearLayout>

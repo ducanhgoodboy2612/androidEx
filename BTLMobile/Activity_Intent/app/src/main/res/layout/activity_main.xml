@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fahasa.com"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#F60606"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        />
+    <Button
+        android:id="@+id/btnDangNhapMain"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#C92127"/>
+    <Button
+        android:id="@+id/btnDangKyMain"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#C92127"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#FFF"/>
+
+
+</LinearLayout>

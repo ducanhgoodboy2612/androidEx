@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Layout2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TICH DIEN TICH HINH THANG"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:paddingTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DAY NHO"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:paddingTop="20dp"/>
+
+    <EditText
+        android:id="@+id/idDaynho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:hint="Nhập đáy nhỏ"
+        android:paddingLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DAY LON"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:paddingTop="20dp"/>
+
+    <EditText
+        android:id="@+id/idDaylon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:hint="Nhập đáy lon"
+        android:paddingLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHIEU CAO"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:paddingTop="20dp"/>
+
+    <EditText
+        android:id="@+id/idChieucao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:hint="Nhập chieu coo"
+        android:paddingLeft="20dp"/>
+
+    <Button
+        android:id="@+id/btnHinhThang"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="ANSWER"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30px"
+        android:background="#4CAF50" />
+
+    <TextView
+        android:id="@+id/ketqua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRESS ANSWER BUTTON"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:paddingTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnHCN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TINH DIEN TICH HINH CHU NHAT"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30px"
+        android:background="#4CAF50" />
+
+</LinearLayout>

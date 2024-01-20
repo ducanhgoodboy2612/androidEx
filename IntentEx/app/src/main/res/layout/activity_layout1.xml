@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Layout1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TICH DIEN TICH HINH CHU NHAT"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:paddingTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHIEU RONG"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:paddingTop="20dp"/>
+
+    <EditText
+        android:id="@+id/idcrong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:hint="Nhập chieu rong"
+        android:paddingLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHIEU CAO"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:paddingTop="20dp"/>
+
+    <EditText
+        android:id="@+id/idcdai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:hint="Nhập chieu dai"
+        android:paddingLeft="20dp"/>
+
+
+
+    <Button
+        android:id="@+id/btnHCN"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="ANSWER"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30px"
+        android:background="#4CAF50" />
+
+    <TextView
+        android:id="@+id/ketqua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRESS ANSWER BUTTON"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:paddingTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnChuyenHT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TINH DIEN TICH HINH THANG"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30px"
+        android:background="#4CAF50" />
+
+</LinearLayout>

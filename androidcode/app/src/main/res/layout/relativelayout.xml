@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/userNameLbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="User Name: "
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:layout_x="50px"
+        android:layout_y="50px"/>
+    <EditText
+        android:id="@+id/userNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="400px"
+        android:layout_y="50px"
+        android:hint="Nhap user name: "
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/passwoudLbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Pass word: "
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:layout_x="50px"
+        android:layout_y="200px"/>
+
+    <EditText
+        android:id="@+id/passwoudText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="400px"
+        android:layout_y="200px"
+        android:hint="Nhap password: "
+        android:textSize="16sp"
+        />
+
+</AbsoluteLayout>

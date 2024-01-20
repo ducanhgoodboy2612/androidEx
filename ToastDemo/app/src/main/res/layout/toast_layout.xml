@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/toast_root"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:src="@drawable/baseline_insert_emoticon_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/toast_img"
+        android:padding="20dp"
+        android:layout_marginEnd="80dp"/>
+    <TextView
+        android:id="@+id/txtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is Toast"
+        android:textSize="26sp"/>
+</LinearLayout>

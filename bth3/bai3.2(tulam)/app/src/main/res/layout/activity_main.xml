@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:textStyle="bold"
+        android:textSize="40sp"
+
+
+        android:layout_gravity="center"/>
+    <CheckBox
+        android:id="@+id/chkRed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Red"
+        android:textColor="#FF0000"
+        android:layout_gravity="center"/>
+    <CheckBox
+        android:id="@+id/chkBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Blue"
+        android:textColor="#00E2FF"
+        android:layout_gravity="center"/>
+    <CheckBox
+        android:id="@+id/chkYellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Yellow"
+        android:textColor="#FFBF00"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/btOK"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đổi màu"
+        android:onClick="ThayDoiMau"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
